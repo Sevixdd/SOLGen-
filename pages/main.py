@@ -160,4 +160,3 @@ if __name__ == "__main__":
     header(logo_and_title=False)
     body()
     footer()
-    delete_old_files("/tmp", 60 * 30)
