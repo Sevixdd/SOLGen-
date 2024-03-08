@@ -4,8 +4,8 @@ import scipy
 from transformers import AutoTokenizer, AutoModelForTextToWaveform
 
 def get_model():    
-        tokenizer = AutoTokenizer.from_pretrained("facebook/musicgen-medium")
-        model = AutoModelForTextToWaveform.from_pretrained("facebook/musicgen-medium")
+        tokenizer = AutoTokenizer.from_pretrained("facebook/musicgen-small")
+        model = AutoModelForTextToWaveform.from_pretrained("facebook/musicgen-small")
         inputs = processor(
         text=["80s pop track with bassy drums and synth", "90s rock song with loud guitars and heavy drums"],
         padding=True,
@@ -22,8 +22,8 @@ def get_model():
         logits.shape  # (bsz * num_codebooks, tgt_len, vocab_size)
 
 
-        sampling_rate = model.config.audio_encoder.sampling_rate
-        scipy.io.wavfile.write("musicgen_out.wav", rate=sampling_rate, data=audio_values[0, 0].numpy())
+        #sampling_rate = model.config.audio_encoder.sampling_rate
+        #scipy.io.wavfile.write("musicgen_out.wav", rate=sampling_rate, data=audio_values[0, 0].numpy())
 
 def main():
     st.title("Async Text Generation Demo")
