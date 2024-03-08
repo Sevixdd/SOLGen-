@@ -1,11 +1,14 @@
 import streamlit as st
 import scipy
 
-from transformers import AutoTokenizer, AutoModelForTextToWaveform
+from transformers import AutoTokenizer, AutoModelForTextToWaveform, pipeline
 
 def get_model():    
-        tokenizer = AutoTokenizer.from_pretrained("facebook/musicgen-small")
-        model = AutoModelForTextToWaveform.from_pretrained("facebook/musicgen-small")
+        #tokenizer = AutoTokenizer.from_pretrained("facebook/musicgen-small")
+        #model = AutoModelForTextToWaveform.from_pretrained("facebook/musicgen-small")
+        # Use a pipeline as a high-level helper
+
+        pipe = pipeline("text-to-audio", model="facebook/musicgen-medium")
         inputs = processor(
         text=["80s pop track with bassy drums and synth", "90s rock song with loud guitars and heavy drums"],
         padding=True,
