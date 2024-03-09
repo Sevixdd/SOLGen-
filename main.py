@@ -4,7 +4,7 @@ import scipy
 from transformers import AutoProcessor, MusicgenForConditionalGeneration
 import torch
 
-@st.cache_resource
+@st.cache
 def get_model():    
         processor = AutoProcessor.from_pretrained("facebook/musicgen-small")
         model = MusicgenForConditionalGeneration.from_pretrained("facebook/musicgen-small")
@@ -25,7 +25,7 @@ def get_model():
 
         logits = model(**inputs, decoder_input_ids=decoder_input_ids).logits
         logits.shape
-        st.cache_resource.clear()
+    
 
         #sampling_rate = model.config.audio_encoder.samplingfrom transformers import AutoProcessor, MusicgenForConditionalGeneration_rate
         #scipy.io.wavfile.write("musicgen_out.wav", rate=sampling_rate, data=audio_values[0, 0].numpy())
@@ -37,7 +37,7 @@ def main():
     
     st.button("Get Model", on_click=get_model)
     
-
+    st.sidebar("")
 
 if __name__ == "__main__":
     main()  
