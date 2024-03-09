@@ -3,5 +3,4 @@ transformers
 torch>=2.0
 scipy
 ffmpeg
-st_audiorec
 streamlit_card
