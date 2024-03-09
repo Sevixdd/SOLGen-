@@ -1,1 +1,1 @@
-# SOLGen-
+# SOLGenAI
