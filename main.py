@@ -24,7 +24,6 @@ def get_model():
 
         logits = model(**inputs, decoder_input_ids=decoder_input_ids).logits
         logits.shape
-        st.download 
 
 
 
