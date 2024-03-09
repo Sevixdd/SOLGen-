@@ -7,7 +7,6 @@ from transformers import AutoProcessor, MusicgenForConditionalGeneration
 import torch
 import streamlit as st 
 
-@st.cache_resource
 def get_model():    
     processor = AutoProcessor.from_pretrained("facebook/musicgen-small")
     model = MusicgenForConditionalGeneration.from_pretrained("facebook/musicgen-small")
