@@ -37,7 +37,6 @@ def main():
     
     st.button("Get Model", on_click=get_model)
     
-    st.sidebar("")
 
 if __name__ == "__main__":
     main()  
