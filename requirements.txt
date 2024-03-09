@@ -1,6 +1,6 @@
 streamlit==1.29.0
 transformers
-torch => 2.0
+torch>=2.0
 scipy
 ffmpeg
-python == 3.9
+python==3.9
