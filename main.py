@@ -24,7 +24,7 @@ def get_model():
 
         logits = model(**inputs, decoder_input_ids=decoder_input_ids).logits
         logits.shape
-
+        st.cache_resource.clear()
 
 
         #sampling_rate = model.config.audio_encoder.samplingfrom transformers import AutoProcessor, MusicgenForConditionalGeneration_rate
@@ -36,7 +36,7 @@ def main():
     st.text_input("Enter your prompt:", "Hello")
     
     st.button("Get Model", on_click=get_model)
-
+    
 
 
 if __name__ == "__main__":
