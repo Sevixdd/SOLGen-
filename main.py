@@ -1,7 +1,6 @@
 import streamlit as st
 import scipy
 from streamlit_card import card
-from st_audiorec import st_audiorec
 
 from transformers import AutoProcessor, MusicgenForConditionalGeneration
 import torch
