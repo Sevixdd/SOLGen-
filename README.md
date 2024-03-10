@@ -1,6 +1,6 @@
 # SolGenAI
 
-# How to have the site running
+# How to run the site
 ```
 npm run start
 ```
