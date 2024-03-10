@@ -7,10 +7,10 @@ SolGenAI is a solution designed to [briefly describe the problem it solves or th
 .......
 
 ## User Story
-![E](userstory.png)
+![](diagrams/SolGen_User_Story.png)
 
 ## SolGen Pipeline
-![Ess](SolGen_Pipeline.png)
+![](diagrams/SolGen_Pipeline.png)
 
 
 
