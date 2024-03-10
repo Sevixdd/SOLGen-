@@ -1,5 +1,6 @@
 # SolGenAI
-![](diagrams/nft.png){:height="100" width="100"}
+<img src="diagrams/nft.png" alt="" height="100" width="100" />
+![](diagrams/nft.png)
 
 ## What is SolGenAI?
 Introducing **SolGenAI**: a groundbreaking platform poised to solve a fundamental ethical issue in  the music industry by harnessing the latest in **AI music generation** and **blockchain** technologies. Imagine the ability to transform your musical ideas into reality with just a few simple prompts or a melody hummed into your phone. SolGenAI makes this possible, offering anyone the power to create stunning, high-quality music beats without the need for extensive musical training or expensive equipment.
@@ -20,7 +21,7 @@ Beyond the individual level, SolGenAI is set to redefine the **global perception
 - **Redefining Music Ownership**: Revolutionizes how music is owned, shared, and valued through the use of NFTs, providing artists with new revenue streams and recognition for their work. 
 
 
-## Sponsors Tech
+# Sponsors Tech
 
 **Solana:** Solana's high-speed and low-cost transactions provided the ideal foundation for SolGenAI, enabling seamless minting of music NFTs and fostering an innovative platform for AI-generated music, all within a hackathon sponsored by Solana, highlighting its commitment to supporting groundbreaking applications in the blockchain space.
  
@@ -34,11 +35,13 @@ Beyond the individual level, SolGenAI is set to redefine the **global perception
 ## SolGenAI Pipeline
 ![](diagrams/SolGen_Pipeline.png)
 
-## Interface 
+# Interface 
+## 
 ![](diagrams/musicRun.png)
+
 ![](diagrams/usersmusic.png)
 
-## Video 
+# Video 
 ```
 Include the YouTube link .....
 ```
