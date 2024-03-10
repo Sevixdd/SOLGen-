@@ -8,7 +8,27 @@ But SolGenAI doesn't stop there. It empowers creators by integrating with the **
 Beyond the individual level, SolGenAI is set to redefine the **global perception** of AI-generated music. By establishing an exclusive platform dedicated to this new genre, it fosters a community where artists and enthusiasts can explore the endless possibilities of AI music creation. More importantly, SolGenAI champions transparency and innovation, bridging the gap between traditional music production and the burgeoning field of artificial intelligence. Join us in shaping the future of music, where creativity knows no bounds and every voice can leave a lasting imprint on the canvas of sound.
 
 ## Overview
-.......
+## Feature Highlights:
+
+- **AI-Powered Music Creation**: Easily transform simple vocal inputs into complex, high-quality music beats with advanced AI, making sophisticated music production accessible to everyone.
+
+- **Blockchain Integration**: Unique integration with the Solana blockchain for minting music creations as NFTs, ensuring each piece's authenticity, ownership, and permanence in a secure digital ledger.
+
+- **Democratization of Music Production**: Breaks down barriers for those without musical training or resources, empowering a broader range of voices to contribute to the musical landscape.
+
+- **Redefining Music Ownership**: Revolutionizes how music is owned, shared, and valued through the use of NFTs, providing artists with new revenue streams and recognition for their work. 
+
+
+## Sponsors Tech
+
+**Solana :** Solana's high-speed and low-cost transactions provided the ideal foundation for SolGenAI, enabling seamless minting of music NFTs and fostering an innovative platform for AI-generated music, all within a hackathon sponsored by Solana, highlighting its commitment to supporting groundbreaking applications in the blockchain space.
+ 
+
+**Stability AI :** Leveraging Stability AI's cutting-edge models along with other open-source AI models on huggingface, SolGenAI enhances the audio diffusion process, enabling the transformation of simple hums or prompts into complex, high-quality music beats. This partnership underscores Stability AI's role in pushing the boundaries of AI-driven creativity, enriching the music generation experience.
+
+# Access
+35.177.177.250:3000
+
 
 ## User Story
 ![](diagrams/SolGen_User_Story.png)
@@ -17,44 +37,7 @@ Beyond the individual level, SolGenAI is set to redefine the **global perception
 ![](diagrams/SolGen_Pipeline.png)
 
 
-
-## Sponsors Tech Use
-(Explain here how the spsonsors' tech as used)
-In the development of SolGenAI, we leveraged [Sponsor Tech Name] to [describe how the technology was used in your project]. [Sponsor Tech Name] was instrumental in achieving [specific goals, such as improving speed, accuracy, user engagement, etc.], by enabling us to:
-
-- **Feature / Technique 1**: How it was used and its impact.
-- **Feature / Technique 2**: Specific application in the project and results.
-- **Feature / Technique 3**: Contribution to the project's success or innovation.
-
-# Access
-35.177.177.250:3000
-# How to run the site
-```
-npm run start 
-```
 ## Demo
 ```
 Include the YouTube link .....
 ```
-```
-maybe include images of interface showing some of the main functionalities
-```
-
-# Architecture
-diagram to be added
-
-# AWS EC2 Server
-
-
-# Backend
-
-
-## Flask endpoint
-
-
-
-
-# Future Scope
-
-
-
