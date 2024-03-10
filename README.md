@@ -1,4 +1,5 @@
 # SolGenAI
+![](diagrams/nft.png)
 
 ## What is SolGenAI?
 Introducing **SolGenAI**: a groundbreaking platform poised to solve a fundamental ethical issue in  the music industry by harnessing the latest in **AI music generation** and **blockchain** technologies. Imagine the ability to transform your musical ideas into reality with just a few simple prompts or a melody hummed into your phone. SolGenAI makes this possible, offering anyone the power to create stunning, high-quality music beats without the need for extensive musical training or expensive equipment.
