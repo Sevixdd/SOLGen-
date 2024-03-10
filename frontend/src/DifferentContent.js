@@ -12,43 +12,6 @@ function DifferentContent() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  // Configure AWS S3
-
-
-  AWS.config.update({
-    region: 'ap-south-1', // Replace with your DynamoDB region
-    credentials: new AWS.Credentials({
-      accessKeyId: "AKIAQ3EGPPNKIMSTY64J", // Use environment variables
-      secretAccessKey: "fH+BALS2qDrcLO5L7ZCdgeIorf5l9MEUWWmC1rpH",
-    }),
-  });
-  
-  const s3 = new AWS.S3({
-    apiVersion: '2006-03-01',
-    params: { Bucket: 'encode-music-bucket' } // Your bucket name
-  });
-  const corsParams = {
-    Bucket: 'encode-music-bucket',
-    CORSConfiguration: { // This is where the JSON format comes into play
-      CORSRules: [
-        {
-          AllowedHeaders: ['*'],
-          AllowedMethods: ['GET', 'PUT', 'POST', 'DELETE', 'HEAD'], // The methods you want to allow
-          AllowedOrigins: ['http://localhost:3000'], // Origins you want to allow requests from
-          ExposeHeaders: [],
-          MaxAgeSeconds: 3000, // Optional
-        },
-      ],
-    },
-  };
-  
-  s3.putBucketCors(corsParams, function(err, data) {
-    if (err) {
-      console.log('Error', err);
-    } else {
-      console.log('Success', data);
-    }
-  });
 
   const handleUploadClick = () => {
     fileInputRef.current.click(); // Programmatically click the hidden file input
@@ -75,19 +38,19 @@ function DifferentContent() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('http://35.177.177.250:5000/api/generate/', {
+      const response = await fetch('http://35.177.177.250:8081/api/generate/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({ prompt: description })
       });
-      console.log("triggered", description)
+      
       if (!response.ok) {
         throw new Error('Failed to post data');
       }
       const data = await response.json();
-      console.log('Response:', data);
+      
       // Handle response data as needed...
     } catch (error) {
       setError('An error occurred while processing your request. Please try again.');
@@ -95,6 +58,28 @@ function DifferentContent() {
       setLoading(false);
     }
   };
+  const handleListen = async() => {
+    try {
+      const response = await fetch('http://35.177.177.250:8081/api/generate/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ prompt: description })
+      });
+      
+      if (!response.ok) {
+        throw new Error('Failed to post data');
+      }
+      const data = await response.json();
+      
+      // Handle response data as needed...
+    } catch (error) {
+      // setError('An error occurred while processing your request. Please try again.');
+    } finally {
+      setLoading(false);
+    }
+  }
 
   return (
     <div className="differentContent">
@@ -120,7 +105,7 @@ function DifferentContent() {
       />
       <textarea placeholder="Describe your music" rows="5" value={description} onChange={handleDescriptionChange}></textarea>
       <div className="buttonsRow">
-        <button className="actionButton">Listen</button>
+        <button className="actionButton" onClick={handleListen}>Listen</button>
         <button className="actionButton" onClick={handleUploadAndPost}>Post</button>
       </div>
       {loading && <p>Loading...</p>}
