@@ -42,9 +42,7 @@ Beyond the individual level, SolGenAI is set to redefine the **global perception
 ![Buy NFT Music on the Marketplace for Decentralized Melodies](diagrams/usersmusic.png)
 
 # Video 
-```
-Include the YouTube link .....
-```
+https://youtu.be/RRwvwwadA5E
 
 # Web App Access
 [http://35.177.177.250:8080/?folder=/root/repository]
