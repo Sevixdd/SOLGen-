@@ -1,0 +1,35 @@
+{
+    "name": "My Audio NFT",
+    "symbol": "ABC",
+    "description": "An awesome audio NFT",
+    "image":"https://i.imgur.com/FLfWPnM.png",
+    "seller_fee_basis_points": 0,
+    "animation_url": "./assets/wav.mp3",
+    "external_url": "https://www.alchemy.com",
+    "attributes": [
+      {
+        "trait_type": "Mood",
+        "value": "Energetic"
+      }
+    ],
+    "collection": {
+      "name": "My Audio Collection",
+      "family": "My NFT Family"
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "../backend2.0/assets/0.wav",
+          "type": "audio/wav"
+        }
+      ],
+      "category": "audio",
+      "creators": [
+        {
+          "address": "H8tmZw456LWZHLuPVKR4iNU55ocvVLT4HuUENp1iL7tB",
+          "share": 1
+        }
+      ]
+    }
+  }
+  
