@@ -1,6 +1,6 @@
 # SolGenAI
 
-## Summary
+## What is SolGenAI?
 Introducing **SolGenAI**: a groundbreaking platform poised to solve a fundamental ethical issue in  the music industry by harnessing the latest in **AI music generation** and **blockchain** technologies. Imagine the ability to transform your musical ideas into reality with just a few simple prompts or a melody hummed into your phone. SolGenAI makes this possible, offering anyone the power to create stunning, high-quality music beats without the need for extensive musical training or expensive equipment.
 
 But SolGenAI doesn't stop there. It empowers creators by integrating with the **Solana** blockchain, enabling you to **mint your beats as NFTs**. This not only secures a permanent record of your creation but also certifies its **originality** and **authenticity** in a digital landscape often cluttered with duplicates and confusion. By leveraging blockchain technology, SolGenAI ensures your unique contributions to the world of music are recognized and protected.
@@ -26,9 +26,6 @@ Beyond the individual level, SolGenAI is set to redefine the **global perception
 
 **Stability AI :** Leveraging Stability AI's cutting-edge models along with other open-source AI models on huggingface, SolGenAI enhances the audio diffusion process, enabling the transformation of simple hums or prompts into complex, high-quality music beats. This partnership underscores Stability AI's role in pushing the boundaries of AI-driven creativity, enriching the music generation experience.
 
-# Access
-35.177.177.250:3000
-
 
 ## User Story
 ![](diagrams/SolGen_User_Story.png)
@@ -37,7 +34,10 @@ Beyond the individual level, SolGenAI is set to redefine the **global perception
 ![](diagrams/SolGen_Pipeline.png)
 
 
-## Demo
+## Video 
 ```
 Include the YouTube link .....
 ```
+
+# Web App Access
+35.177.177.250:3000
