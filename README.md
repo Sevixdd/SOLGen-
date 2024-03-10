@@ -22,10 +22,10 @@ Beyond the individual level, SolGenAI is set to redefine the **global perception
 
 ## Sponsors Tech
 
-**Solana :** Solana's high-speed and low-cost transactions provided the ideal foundation for SolGenAI, enabling seamless minting of music NFTs and fostering an innovative platform for AI-generated music, all within a hackathon sponsored by Solana, highlighting its commitment to supporting groundbreaking applications in the blockchain space.
+**Solana:** Solana's high-speed and low-cost transactions provided the ideal foundation for SolGenAI, enabling seamless minting of music NFTs and fostering an innovative platform for AI-generated music, all within a hackathon sponsored by Solana, highlighting its commitment to supporting groundbreaking applications in the blockchain space.
  
 
-**Stability AI :** Leveraging Stability AI's cutting-edge models along with other open-source AI models on huggingface, SolGenAI enhances the audio diffusion process, enabling the transformation of simple hums or prompts into complex, high-quality music beats. This partnership underscores Stability AI's role in pushing the boundaries of AI-driven creativity, enriching the music generation experience.
+**Stability AI:** Leveraging Stability AI's cutting-edge models along with other open-source AI models on huggingface, SolGenAI enhances the audio diffusion process, enabling the transformation of simple hums or prompts into complex, high-quality music beats. This partnership underscores Stability AI's role in pushing the boundaries of AI-driven creativity, enriching the music generation experience.
 
 
 ## User Story
@@ -35,7 +35,8 @@ Beyond the individual level, SolGenAI is set to redefine the **global perception
 ![](diagrams/SolGen_Pipeline.png)
 
 ## Interface 
-
+![](diagrams/musicRun.png)
+![](diagrams/usersmusic.png)
 
 ## Video 
 ```
