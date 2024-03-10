@@ -31,8 +31,10 @@ Beyond the individual level, SolGenAI is set to redefine the **global perception
 ## User Story
 ![](diagrams/SolGen_User_Story.png)
 
-## SolGen Pipeline
+## SolGenAI Pipeline
 ![](diagrams/SolGen_Pipeline.png)
+
+## Interface 
 
 
 ## Video 
@@ -41,4 +43,4 @@ Include the YouTube link .....
 ```
 
 # Web App Access
-35.177.177.250:3000
+[http://35.177.177.250:8080/?folder=/root/repository]
