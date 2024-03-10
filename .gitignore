@@ -1,3 +1,4 @@
 backend/venv/
 backend2.0/__pycache__/
 backend2.0/venv
+middleware/node_modules/
