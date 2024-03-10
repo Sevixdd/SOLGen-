@@ -1,7 +1,7 @@
 # SolGenAI
 
 ## Summary
-Introducing **SolGenAI**: a groundbreaking platform poised to revolutionize the music industry by harnessing the latest in **AI music generation** and **blockchain** technologies. Imagine the ability to transform your musical ideas into reality with just a few simple prompts or a melody hummed into your phone. SolGenAI makes this possible, offering anyone the power to create stunning, high-quality music beats without the need for extensive musical training or expensive equipment.
+Introducing **SolGenAI**: a groundbreaking platform poised to solve a fundamental ethical issue in  the music industry by harnessing the latest in **AI music generation** and **blockchain** technologies. Imagine the ability to transform your musical ideas into reality with just a few simple prompts or a melody hummed into your phone. SolGenAI makes this possible, offering anyone the power to create stunning, high-quality music beats without the need for extensive musical training or expensive equipment.
 
 But SolGenAI doesn't stop there. It empowers creators by integrating with the **Solana** blockchain, enabling you to **mint your beats as NFTs**. This not only secures a permanent record of your creation but also certifies its **originality** and **authenticity** in a digital landscape often cluttered with duplicates and confusion. By leveraging blockchain technology, SolGenAI ensures your unique contributions to the world of music are recognized and protected.
 
