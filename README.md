@@ -26,6 +26,8 @@ In the development of SolGenAI, we leveraged [Sponsor Tech Name] to [describe ho
 - **Feature / Technique 2**: Specific application in the project and results.
 - **Feature / Technique 3**: Contribution to the project's success or innovation.
 
+# Access
+35.177.177.250:3000
 # How to run the site
 ```
 npm run start 
