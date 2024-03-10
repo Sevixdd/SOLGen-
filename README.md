@@ -35,9 +35,10 @@ Beyond the individual level, SolGenAI is set to redefine the **global perception
 ![](diagrams/SolGen_Pipeline.png)
 
 # Interface 
-## 
+## Compose Your Symphony on Blockchain with a Simple Text Description
 ![Compose Your Symphony on Blockchain with a Simple Text Description](diagrams/musicRun.png)
 
+## Buy NFT Music on the Marketplace for Decentralized Melodies
 ![Buy NFT Music on the Marketplace for Decentralized Melodies](diagrams/usersmusic.png)
 
 # Video 
