@@ -5,13 +5,15 @@ import torchaudio
 from flask import Flask, redirect, url_for, request, jsonify
 from audiocraft.models import MusicGen
 from audiocraft.data.audio import audio_write
-
+from flask_cors import CORS
 from subprocess import PIPE, run
+
 
 model = MusicGen.get_pretrained('facebook/musicgen-small')
 
 
 app = Flask(__name__)
+cors = CORS(app)
 
 # POST /api/generate/ # curl -X POST -d '{"prompt": "happy rock"}' -H "Content-Type: application/json" localhost:8081/api/generate/;
 @app.route('/api/generate/', methods=['POST'])
@@ -22,7 +24,7 @@ def generate():
         inference(prompt)
     return 'DONE'
 
-# GET /api/upload/ # curl localhost:8081/api/upload/
+# GET /api/upload/ # curl -X GET localhost:8081/api/upload/
 @app.route('/api/upload/', methods=['GET'])
 def upload():
     if (request.method == 'GET'):
