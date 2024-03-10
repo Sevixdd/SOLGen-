@@ -1,0 +1,51 @@
+.musicCard {
+  background-color: #f2f2f2; /* Light grey background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Adds space between cards */
+  transition: transform 0.2s;
+}
+
+.musicCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+  
+  .musicCard h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .musicianDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  .musicianDetails p {
+    margin: 1px 0; /* Tighten spacing between details */
+  }
+  
+  .musicCard button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px; /* Ensure some spacing above the button */
+  }
+  
+  .musicCard button:hover {
+    background-color: #0056b3;
+  }
+  
+  .musicCard:hover {
+    transform: translateY(-5px);
+  }
+
+  .musicCard .buttons button {
+    margin-right: 10px; /* Add margin to the right side of each button */
+  }
+  

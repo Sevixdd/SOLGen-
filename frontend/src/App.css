@@ -1,0 +1,17 @@
+.sideMenu {
+  flex: 0 0 200px; /* Set a fixed smaller width */
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.mainContent {
+  display: flex;
+  flex: 1;
+  gap: 20px; /* Adds space between side menu and music feed */
+}
+
+.musicFeed {
+  flex: 3;
+  padding: 20px;
+}

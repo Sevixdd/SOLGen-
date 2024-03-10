@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px; /* Decreased vertical padding */
+    background-color: #20232a;
+    color: white;
+  }
+  
+  .logo {
+    width: 40px; /* Adjust based on your preference */
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .header h1 {
+    margin: 3;
+    font-size: 20px; /* Adjust based on your preference */
+  }
+  

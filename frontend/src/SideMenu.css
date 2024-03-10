@@ -1,0 +1,27 @@
+
+.sideMenu {
+    flex: 0 0 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    height: calc(100vh - 150px); 
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sideMenu a {
+    text-decoration: none;
+    color: #333; /* Dark text color for better readability */
+    padding: 10px;
+    margin: 5px 0; /* Adds a little space between items */
+    border-radius: 5px; /* Slightly rounded corners for a modern look */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sideMenu a:hover, .sideMenu a:focus {
+    background-color: #007bff; /* Change to your theme color */
+    color: #ffffff; /* White text on hover/focus */
+    text-decoration: none; /* Ensures no underline appears on hover/focus */
+  }
+  
